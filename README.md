@@ -73,7 +73,7 @@ Interpretation:
 
 ---
 
-## Comparison vs best linear model (decision)
+## Comparison vs best linear model
 
 From prior work, the best linear model achieved approximately **R² ≈ 0.27** (with heteroscedasticity / collinearity concerns).
 
@@ -108,14 +108,14 @@ These scripts assume a local file named `CAII_dataset_curado.csv` is available (
 
 ---
 
-## Data note (dataset not included)
+## Data note
 
 1. Export CAII bioactivity from **ChEMBL** (CHEMBL205).
 2. Filter to **IC50 (nM)** with relation "=" and organism *Homo sapiens*.
 3. Deduplicate and compute/select **AlogP** and **MW**.
 
 Expected columns:
-- `pIC50`, `AlogP`, `MW`
+- `pIC50`, `AlogP`, `MW`, `log(MW)`, `AlogP²`
 
 ---
 

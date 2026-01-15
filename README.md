@@ -2,8 +2,8 @@
 # Non-linear baseline for CAII pIC50 using Random Forest (ChEMBL205)
 
 This repository continues my CAII (CHEMBL205) pIC50 modeling series:
-**Project 1 repo:** https://github.com/Epitectus2223/chembl-ca2-pic50-alogp
-**Project 2 repo:**https://github.com/Epitectus2223/chembl-ca2-pic50-multivariate-extended
+-**Project 1 repo:** https://github.com/Epitectus2223/chembl-ca2-pic50-alogp
+-**Project 2 repo:**https://github.com/Epitectus2223/chembl-ca2-pic50-multivariate-extended
 
 - **Project 1:** AlogP-only OLS baseline (no useful linear signal)
 - **Project 2 / 2.1:** Multivariate + extended linear models (modest gains; assumption issues)
